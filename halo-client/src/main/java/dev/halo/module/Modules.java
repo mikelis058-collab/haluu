@@ -491,7 +491,7 @@ public final class Modules {
         public void play() {
             SoundEvent ev = Registries.SOUND_EVENT.get(Identifier.of("minecraft", IDS[sound.index]));
             if (ev == null) return;
-                     mc().getSoundManager().play(PositionedSoundInstance.master(Registries.SOUND_EVENT.getEntry(ev), 1.0f, volume.f() / 100f));
+                    if (mc().player != null) mc().player.playSound(ev, volume.f() / 100f, 1.0f);
         }
     }
 
