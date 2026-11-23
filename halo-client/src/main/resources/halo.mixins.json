@@ -1,7 +1,0 @@
-{
-  "required": true,
-  "package": "dev.halo.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "client": ["GameRendererMixin", "BlockMixin", "FogRendererMixin", "LivingEntityMixin", "SkyRenderingMixin", "InteractionManagerMixin"],
-  "injectors": { "defaultRequire": 0 }
-}
