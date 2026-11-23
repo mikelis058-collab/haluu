@@ -685,13 +685,13 @@ public final class Modules {
                 "Note: Xylophone", "Note: Iron Xylophone", "Note: Cow Bell", "Note: Banjo",
                 "Anvil Land", "XP Orb", "Firework Blast", "Totem", "Arrow Hit" };
         private static final SoundEvent[] SOUNDS = {
-                SoundEvents.BLOCK_NOTE_BLOCK_BELL, SoundEvents.BLOCK_NOTE_BLOCK_HARP, SoundEvents.BLOCK_NOTE_BLOCK_BASS,
-                SoundEvents.BLOCK_NOTE_BLOCK_SNARE, SoundEvents.BLOCK_NOTE_BLOCK_HAT, SoundEvents.BLOCK_NOTE_BLOCK_PLING,
-                SoundEvents.BLOCK_NOTE_BLOCK_BASEDRUM, SoundEvents.BLOCK_NOTE_BLOCK_BIT, SoundEvents.BLOCK_NOTE_BLOCK_DIDGERIDOO,
-                SoundEvents.BLOCK_NOTE_BLOCK_GUITAR, SoundEvents.BLOCK_NOTE_BLOCK_FLUTE, SoundEvents.BLOCK_NOTE_BLOCK_CHIME,
-                SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE, SoundEvents.BLOCK_NOTE_BLOCK_IRON_XYLOPHONE, SoundEvents.BLOCK_NOTE_BLOCK_COW_BELL,
-                SoundEvents.BLOCK_NOTE_BLOCK_BANJO, SoundEvents.BLOCK_ANVIL_LAND, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP,
-                SoundEvents.ENTITY_FIREWORK_ROCKET_BLAST, SoundEvents.ITEM_TOTEM_USE, SoundEvents.ENTITY_ARROW_HIT_PLAYER };
+        SoundEvents.BLOCK_NOTE_BLOCK_BELL.value(), SoundEvents.BLOCK_NOTE_BLOCK_HARP.value(), SoundEvents.BLOCK_NOTE_BLOCK_BASS.value(),
+        SoundEvents.BLOCK_NOTE_BLOCK_SNARE.value(), SoundEvents.BLOCK_NOTE_BLOCK_HAT.value(), SoundEvents.BLOCK_NOTE_BLOCK_PLING.value(),
+        SoundEvents.BLOCK_NOTE_BLOCK_BASEDRUM.value(), SoundEvents.BLOCK_NOTE_BLOCK_BIT.value(), SoundEvents.BLOCK_NOTE_BLOCK_DIDGERIDOO.value(),
+        SoundEvents.BLOCK_NOTE_BLOCK_GUITAR.value(), SoundEvents.BLOCK_NOTE_BLOCK_FLUTE.value(), SoundEvents.BLOCK_NOTE_BLOCK_CHIME.value(),
+        SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE.value(), SoundEvents.BLOCK_NOTE_BLOCK_IRON_XYLOPHONE.value(), SoundEvents.BLOCK_NOTE_BLOCK_COW_BELL.value(),
+        SoundEvents.BLOCK_NOTE_BLOCK_BANJO.value(), SoundEvents.BLOCK_ANVIL_LAND.value(), SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP.value(),
+        SoundEvents.ENTITY_FIREWORK_ROCKET_BLAST.value(), SoundEvents.ITEM_TOTEM_USE.value(), SoundEvents.ENTITY_ARROW_HIT_PLAYER.value() };
         public final Mode sound = mode("Sound", 0, NAMES);
         public final Num pitch = num("Pitch", 0.5, 2.0, 1.0, 0.05);
         public HitSfx() { super("HitSfx", "Plays a custom sound (client side) whenever you hit an entity.", Category.COMBAT); }
